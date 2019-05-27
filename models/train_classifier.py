@@ -13,7 +13,6 @@ from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV
 from sqlalchemy import create_engine
 
-
 def load_data(database_filepath):
     '''
     Fucntion to load the database from the given filepath
