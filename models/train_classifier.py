@@ -31,7 +31,6 @@ def load_data(database_filepath):
     category_names = y.columns
     return X, y, category_names
 
-
 def tokenize(text):
     '''
     Function to tokenize the text messages
