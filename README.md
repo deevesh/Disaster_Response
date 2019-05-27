@@ -5,9 +5,9 @@ In this project we have to analyze disaster data from Figure Eight in order to b
 The project workspace contains a data set with real messages that were sent during disasters. I had to create a ML pipeline to categorize these events so that the messages could be sent to the appropriate disaster relief agency. 
 
 In the current repository, we have 3 folders:
-1. App:  Flask Web App which will be taking the user message and classify them into 36 categories
-2. Data: contains the 2 datasets and the ETL Pipeline (process_data.py) which loads the messages, cleans the data stores and stores it in a SQLite database.  
-3. Models: contains the ML Pipeline (train_classifier.py) that loads the data from SQLite database, and build a text processing model using GridSearchCV in order to create a model, exporting it as a pickle file. 
+1. app:  Flask Web App which will be taking the user message and classify them into 36 categories
+2. data: contains the 2 datasets and the ETL Pipeline (process_data.py) which loads the messages, cleans the data stores and stores it in a SQLite database.  
+3. models: contains the ML Pipeline (train_classifier.py) that loads the data from SQLite database, and build a text processing model using GridSearchCV in order to create a model, exporting it as a pickle file. 
 
 
 ### Instructions:
